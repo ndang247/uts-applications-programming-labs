@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FirstGUI.jnlp">
+  <information>
+    <title>FirstGUI</title>
+    <vendor>Nathan Dang</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FirstGUI.jar" size="1894" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="FirstGUI"  name="FirstGUI" />
+  <update check="always"/>
+</jnlp>
